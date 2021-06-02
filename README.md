@@ -1,10 +1,6 @@
 # Execucao_read_qc.ipynb
 How to use metaWRAP within Google Colab
 
-Summary
-
-The recent pandemic caused by the infectious disease Sars-CoV2-2019 has restricted the population to collective isolation. With this, ways were sought to use technology in their favor so that the different areas of work would not suffer a great impact during this period. In the meantime, this work developed a mini-project in which the quality of the use of cloud programs for analyzing metagenomic research data was evaluated. However, there are challenges in this service that still need to be overcome, and a strategy is needed for its good handling and management. It is concluded that this platform can indeed be a mechanism that influences its remote use so that its development in code can be manipulated and shared with other users.
-
 Objective
 
 The purpose of this work was to develop a remote system that manages the pipeline without the need to house and overload the developer's computer. For this, two hypotheses were conducted, in which the first seeks to store the files and programs in a supportable computational service, but one that can use it remotely through any computer that has a connection with this service; the other hypothesis is to develop in a cloud package through a website that can develop it.
