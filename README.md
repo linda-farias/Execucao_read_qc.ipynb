@@ -26,7 +26,7 @@ count create -y -n metawrap-env python=2.7
 count activate metawrap-env
 ```
 
-Install all metaWRAP dependencies through conda:
+3. Install all metaWRAP dependencies through conda:
 
 ```
 count config --add channels defaults
@@ -36,7 +36,7 @@ count config --add channels ursky
 ```
 
 
-3. Download samples
+4. Download samples
 
 For this study, a pair of human intestinal sequences collected from the European Nucleotide Archive (ENA) database were used. 
 Thus, the first step will be to download these sequences. With this, we will use as a base the first pair of samples that are exemplified in the metaWRAP github link. 
@@ -47,7 +47,7 @@ The command line used after wget to download these samples were:
 ftp.sra.ebi.ac.uk/vol1/fastq/ERR011/ERR011347/ERR011347_1.fastq.gz
 ftp.sra.ebi.ac.uk/vol1/fastq/ERR011/ERR011347/ERR011347_2.fastq.gz 
 ```
-4. MetaWRAP dependencies
+5. MetaWRAP dependencies
 
 Although metaWRAP has a package with several independent dependencies, this work was restricted to evaluating only the READ_QC module which represents one of the three modules in the pre-processing. 
 He is characterized by preparing the sequences before being assembled and aligned. 
